@@ -1,0 +1,241 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  scrollbar-color: black;
+}
+nav {
+  position: fixed;
+  background: transparent;
+  width: 100%;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.4s ease-out;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+li {
+  float: right;
+}
+a {
+  padding: 20px;
+  width: 100px;
+  display: block;
+  float: right;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+a:hover {
+  color: blue;
+}
+nav.scroll {
+  background-color: black;
+  color: white;
+}
+
+#section1 {
+  height: 650px;
+  background: url("/images/17.JPG");
+  background-repeat: no-repeat;
+  background-size: 1400px 700px;
+  display: inline-block;
+  width: 100%;
+}
+#section2 {
+  height: 700px;
+  background: white;
+  display: inline-block;
+  width: 100%;
+}
+#section3 {
+  height: 700px;
+  background: #f0f0f0;
+  display: inline-block;
+  width: 100%;
+}
+#section4 {
+  height: 700px;
+  background: white;
+  display: inline-block;
+  width: 100%;
+}
+
+#section5 {
+  height: 250px;
+  background: #f0f0f0;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+#CV {
+  height: 250px;
+  background: url("/images/cv.JPG");
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+h1 {
+  margin: 100px;
+  text-align: center;
+  padding: 0;
+  color: black;
+  letter-spacing: 2px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+#type1 {
+  color: white;
+  letter-spacing: 2px;
+  margin-top: 160px;
+  margin-bottom: 0;
+  padding: 70px;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  transition: 0.4s ease-out;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: black;
+  position: relative;
+}
+
+.intro {
+  text-align: center;
+  color: black;
+  font-weight: 400;
+  width: 500px;
+  border: 15px;
+  border-radius: 15px;
+  padding: 50px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-size: 13px;
+}
+
+.intro2 {
+  text-align: center;
+  color: black;
+  font-weight: 400;
+  width: 500px;
+  border: 15px;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-size: 13px;
+}
+p {
+  text-align: center;
+  color: black;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  font-size: 13px;
+}
+
+h5 {
+  color: white;
+  text-align: center;
+  justify-items: center;
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+}
+
+.fa {
+  display: inline-block;
+  font-size: inherit;
+  text-rendering: auto;
+}
+
+a.fa.fa-angle-down {
+  color: white;
+  text-align: center;
+}
+
+button {
+  position: absolute;
+  margin-top: 45px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  background: transparent;
+  border-radius: 0;
+  text-transform: uppercase;
+}
+
+.reach {
+  text-align: center;
+  color: black;
+  font-weight: 400;
+  width: 500px;
+  border: 10px;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  font-size: 13px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.contact {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.grab {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 0;
+  text-align: center;
+  font-size: 20px;
+}
+.look {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+}
+
+footer {
+  background: black;
+}
+footer p {
+  color: white;
+  position: relative;
+  margin-left: 800px;
+}
